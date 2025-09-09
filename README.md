@@ -5,7 +5,7 @@
   <title>Catchhub</title>
   <link rel="icon" type="image/jpg" href="favicon.jpg">
   <style>
-  
+    /* Reset */
     * {
       margin: 0;
       padding: 0;
@@ -19,7 +19,7 @@
       line-height: 1.6;
     }
 
-   
+    /* Header */
     header {
       display: flex;
       justify-content: space-between;
@@ -45,7 +45,7 @@
       font-weight: bold;
     }
 
-  
+    /* Hero */
     .hero {
       display: flex;
       justify-content: space-between;
@@ -79,7 +79,7 @@
       border-radius: 20px;
     }
 
-
+    /* Features */
     .features {
       padding: 50px;
       text-align: center;
@@ -109,7 +109,7 @@
       margin-bottom: 10px;
     }
 
-  
+    /* Screenshots */
     .screenshots {
       padding: 50px;
       text-align: center;
@@ -142,6 +142,7 @@
   </style>
 </head>
 <body>
+  <!-- Header -->
   <header>
     <img src="logo.png" alt="Catchhub Logo" class="logo">
     <nav>
@@ -153,6 +154,8 @@
       </ul>
     </nav>
   </header>
+
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-text">
       <h1>Welcome to Catchhub</h1>
@@ -189,7 +192,7 @@
     </div>
   </section>
 
-
+  <!-- Screenshots Section -->
   <section class="screenshots">
     <h2>App Screenshots</h2>
     <div class="screens">
